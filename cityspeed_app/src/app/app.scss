@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'AudiowideRegular';
+    src: url('../assets/fonts/AudiowideRegular.eot');
+    src: url('../assets/fonts/AudiowideRegular.eot') format('embedded-opentype'),
+         url('../assets/fonts/AudiowideRegular.woff2') format('woff2'),
+         url('../assets/fonts/AudiowideRegular.woff') format('woff'),
+         url('../assets/fonts/AudiowideRegular.ttf') format('truetype'),
+         url('../assets/fonts/AudiowideRegular.svg#AudiowideRegular') format('svg');
+}
+
+ion-content {
+    background: no-repeat fixed center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    background-image: url('../assets/img/background.jpg');
+}
+
+ion-header{
+    font-family: 'AudiowideRegular';
+	text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.75);
+	letter-spacing:2px;
+}
+
+ion-item{
+    padding-left:0!important;
+    padding-right:0!important;
+}
+
+.toolbar-background {
+    background: transparent;
+}
+
+.toolbar-title{
+	color: #fff;
+}
