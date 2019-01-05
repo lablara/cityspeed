@@ -1,0 +1,179 @@
+button:focus {
+	outline:0!important;
+}
+
+#cs-map {
+	height: 500px;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+.ui-datepicker{
+	width: 290px;
+	height: 270px;
+}     
+
+.collapsing{
+	position: absolute !important;
+	z-index: 20;
+	top: 142px;
+}
+.collapse.in {
+	display: block;
+	position: absolute;
+	z-index: 20;
+	top: 142px;
+}
+.navbar-collapse{
+	max-height: none !important;
+}
+
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight {
+    border: 1px solid #aed0ea;
+    background: #d7ebf9 url(../css/images/ui-bg_glass_80_d7ebf9_1x400.png) 50% 50% repeat-x;
+    font-weight: bold;
+    color: #2779aa;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
+    border: 1px solid #aed0ea;
+    background: #d7ebf9 url(../css/images/ui-bg_glass_80_d7ebf9_1x400.png) 50% 50% repeat-x;
+    font-weight: bold;
+    color: #2779aa;
+}
+
+/* jQuery UI Datepicker moving pixels fix */
+table.ui-datepicker-calendar {border-collapse: separate;}
+.ui-datepicker-calendar td {border: none!important;}
+
+/* jQuery UI Datepicker hide datepicker helper */
+#ui-datepicker-div {display:none;}
+
+/* jQuery UI Datepicker emphasis on selected dates */
+.ui-datepicker .ui-datepicker-calendar .ui-state-highlight a {
+	border: none!important;
+    background: #3baae3 url(../css/images/ui-bg_glass_50_3baae3_1x400.png) 50% 50% repeat-x!important;
+    font-weight: bold!important;
+    color: #fff!important;
+}
+
+.ui-datepicker-today a{
+	border: 1px solid #0070a3!important;	
+}
+
+.well{
+	background-color: #fff;
+	margin-left: 14px
+}
+
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1030;
+    background-color: #000;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #F4F4F4;
+}
+::-webkit-scrollbar {
+    width: 6px;
+    background: #F4F4F4;
+}
+::-webkit-scrollbar-thumb {
+    background: #dad7d7;
+}
+
+.detail-log{
+	background-color: #eaf3ff;
+	color: black;
+}
+
+.filter-log{
+	background-color: #dbf9e2;
+	color: black;
+}
+
+.divider-log{
+	height: 2px;
+	background-color: #ddd;
+	color: #ddd;
+}
+
+#log-button{
+	margin-left:40px; 
+	width: 150px; 
+	display: none
+}
+
+.detail-dates-count{
+	line-height: 35px;
+	font-weight: bold;
+}
+
+.filter-dates-count{
+	line-height: 35px;
+	font-weight: bold;
+}
+
+.date-title{
+	font-weight: bold;
+	color: #666;
+}
+
+
+.title-log td{
+	padding: 2px!important;
+    margin: 0;
+    border: none;
+    text-align: left;
+    font-size: 12px;
+    background-color: #d6d6d6;
+    border-bottom: 2px solid #bbb!important;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.table td{
+	width: 200px;
+	padding: 5px!important;
+	font-size: 12px;
+}
+
+.table th {
+	width: 200px;
+	border: none!important;
+}
+.modal-header {
+   border-bottom: none!important;
+}
+
+.table-header th{
+	text-align: center;
+}
+
+.detail-log td{
+	text-align: center;
+}
+
+.filter-log td{
+	text-align: center;	
+}
+
+.modal-body {
+    padding: 0 0 15px 0 !important;
+}
+
+.expand-modal{
+	width: 700px;
+}
+
+h3{
+	font-size: 20px;
+}
